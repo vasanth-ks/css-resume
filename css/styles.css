@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #35495e;
+}
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    color: #8bbabb;
+    line-height: 2;
+}
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #8bbabb;
+    font-weight: normal;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #464159;
+    border-width: 5px;
+    width: 3%;
+}
+a {
+    color: #272727;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80%;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: #EAF6F6;
+}
+.top-container {
+    background-color: #8bbabb;
+    position: relative;
+    padding: 50px;
+}
+.name {
+    color: #35495e;
+}
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 500px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+}
+.profile-pic {
+    height: 10%;
+    width: 10%;
+}
+.middle-container {
+    background-color: #bbded6;
+    padding: 50px 0;
+}
+.bottom-container {
+    background-color: #6c7b95;
+    padding: 20px;
+}
+
+.skills-img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+.edu-img {
+    width: 20%;
+    height: 20%;
+    float: right;
+    margin-right: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.education-row {
+    width: 50%;
+    margin: auto;
+    line-height: 1.5;
+    text-align: left;
+    clear: right;
+}
+
+/* .github {
+    color: #272727;
+    font-size: 15px;
+}
+.footer-link {
+    margin-top: 100px;
+    padding: 30px;
+    color: #272727;
+    font-size: 15px;
+} */
+.description {
+    height: 50%;
+    width: 50%;
+    margin: 50px auto 50px auto;
+    line-height: 1.5;
+}
